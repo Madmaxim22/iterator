@@ -1,0 +1,34 @@
+{
+  "name": "iterator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint --fix",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Madmaxim22/-.git"
+  },
+  "author": "Maksim Muhomedyarov <madmaxim22@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madmaxim22/-/issues"
+  },
+  "homepage": "https://github.com/Madmaxim22/-#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@eslint/js": "^9.34.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "babel-jest": "^30.1.1",
+    "eslint": "^9.34.0",
+    "jest": "^30.1.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
