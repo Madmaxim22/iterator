@@ -1,3 +1,5 @@
+import { Character } from "./Character.js";
+
 export class Team {
   constructor(characters = []) {
     this.characters = characters;

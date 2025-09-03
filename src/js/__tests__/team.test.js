@@ -31,6 +31,7 @@ describe('Team iterator tests', () => {
 
     expect(results).toHaveLength(1);
     expect(results[0]).toEqual(char);
+    expect(results[0].name).toBe('Лучник');
   });
 
   test('Порядок повторения нескольких персонажей', () => {
@@ -68,8 +69,11 @@ describe('Team iterator tests', () => {
     }
 
     expect(results[0]).toEqual(char1);
+    expect(results[0].name).toBe('Лучник');
     expect(results[1]).toEqual(char2);
+    expect(results[1].name).toBe('Маг');
     expect(results[2]).toEqual(char3);
+    expect(results[2].name).toBe('Воин');
 
   });
 
